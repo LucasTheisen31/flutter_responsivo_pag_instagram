@@ -14,14 +14,14 @@ class ResponsiveMenuAction extends StatelessWidget {
           visibleWhen: const [
             Condition.smallerThan(name: TABLET),
           ],
-          child: IconButton(icon: const Icon(Icons.search), onPressed: () {}),
+          child: IconButton(icon: const Icon(Icons.search, color: Colors.white), onPressed: () {}),
         ),
         const SizedBox(width: 4),
-        IconButton(onPressed: () {}, icon: const Icon(Icons.home)),
+        IconButton(onPressed: () {}, icon: const Icon(Icons.home, color: Colors.white)),
         const SizedBox(width: 4),
-        IconButton(onPressed: () {}, icon: const Icon(Icons.send)),
+        IconButton(onPressed: () {}, icon: const Icon(Icons.send, color: Colors.white)),
         const SizedBox(width: 4),
-        IconButton(onPressed: () {}, icon: const Icon(Icons.favorite_border_outlined)),
+        IconButton(onPressed: () {}, icon: const Icon(Icons.favorite_border_outlined, color: Colors.white)),
         const SizedBox(width: 16),
         const CircleAvatar(
           radius: 16,
